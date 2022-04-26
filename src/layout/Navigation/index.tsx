@@ -19,7 +19,7 @@ const NavItem = ({ title, url, active, index }: { title: string, url: string, in
 
 const Navigation = () => {
   const location = useLocation();
-  console.log(location);
+
   return <div className="navigation">
     <NavItem index={1} title="Page 1" url="/" active={location.pathname === "/"} />
     <NavItem index={2} title="Page 2" url="/page2" active={location.pathname === "/page2"} />
