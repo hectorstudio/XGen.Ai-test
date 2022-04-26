@@ -1,0 +1,13 @@
+.main-layout {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #FAFAFA;
+}

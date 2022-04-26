@@ -1,0 +1,37 @@
+.navigation {
+  padding: 20px;
+}
+
+.nav-item {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.nav-item span {
+  color: white;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.active-item span {
+  color: #38BDF8;
+}
+
+.nav-index {
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #111827;
+  width: 24px;
+  height: 24px;
+  background-color: white;
+  text-align: center;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
